@@ -3,14 +3,14 @@ require.config({
   deps: ['main'],
 
   paths: {
-    backbone: '../components/backbone/backbone',
-    underscore: '../components/lodash/lodash',
-    jquery: '../components/jquery/jquery',
-    moment: '../components/moment/moment',
-
-    tpl: '../components/requirejs-tpl/tpl',
-    i18n: '../components/requirejs-i18n/i18n',
-    text: '../components/requirejs-text/text',
+    bootstrap: '../bower_components/bootstrap/dist/bootstrap',
+    backbone: '../bower_components/backbone/backbone',
+    underscore: '../bower_components/lodash/lodash',
+    jquery: '../bower_components/jquery/jquery',
+    moment: '../bower_components/moment/moment',
+    tpl: '../bower_components/lodash-template-loader/loader',
+    i18n: '../bower_components/requirejs-i18n/i18n',
+    text: '../bower_components/requirejs-text/text',
   },
 
   shim: {
